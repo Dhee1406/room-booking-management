@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>hotel dbms project</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+       <style>
+           .header{
+            background-image: url('images/ho1.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center ;
+            background-size:cover;
+        }
+       </style>
+    </head>
+    <body>
+        <!-- header  -->
+        <header class="header" id="header">
+            <div class="head-top">
+                <div class="site-name">
+                    <span>OTELSHIA</span>
+                </div>
+                <div class="site-nav">
+                        <a href="home.html">HOME</a>
+                        <a href="index.php">ADMIN</a>
+                        <a href="rooms.php">BOOKING</a>
+                        <a href="admin/payment.php">PAYMENT</a>
+                </div>
+            </div>
+            
+            <div class="head-bottom flex">
+                <h2>WELCOME TO OTELSHIA</h2>
+                <p>Land of volcanic peaks, scenic waterfalls, hot springs and rich flora and fauna. National parks, wildlife refuges, quaint villages, historic sites and a countless sum of golden beaches in the area provide a variety of activities for guests that seek an authentic Costa Rican experience.</p>
+                <button type="button" class="head-btn">GET STARTED</button>
+            </div>
+        </header>
+        <!-- end of header  -->
+
+        <!-- fullscreen modal -->
+        <div id = "modal"></div>
+        <!-- end of fullscreen modal -->
+    
+        <!-- body content  -->
+        <section class="services sec-width" id="services">
+            <div class="title">
+                <h2>SERVICES</h2>
+            </div>
+            <div class="services-container">
+                <!-- single service  -->
+                <article class="service">
+                    <div class="service-icon">
+                        <span>
+                            <i class="fas fa-utensils"></i>
+                        </span>
+                    </div>
+                    <div class="service-content">
+                        <h2>Food service</h2>
+                        <p>Food preparation in hotels, restaurants, cafes, bars, sandwich shops and similar businesses for customers to eat on premises or for takeaway.Food handling and preparation processes are safe,
+                             good food hygiene ensures that it is safe to eat. It prevents serious illness from contaminating food.</p>
+                        
+                    </div>
+                </article>
+                <!-- end of single service  -->
+                <!-- single service  -->
+                <article class="service">
+                    <div class="service-icon">
+                        <span>
+                            <i class="fas fa-swimming-pool"></i>
+                        </span>
+                    </div>
+                    <div class="service-content">
+                        <h2>Personalization</h2>
+                        <p>We provide customers with personalization from the businesses they engage with. From contest giveaways to customized candy wrappers we appreciate them.
+                         We offer some personalized suggestions to surprise and delight them – and this doesn’t need to cost anything extra.</p>
+                      
+                    </div>
+                </article>
+                <!-- end of single service  -->
+                <!-- single service  -->
+                 <article class="service">
+                    <div class="service-icon">
+                        <span>
+                            <i class="fas fa-broom"></i>
+                        </span>
+                    </div>
+                    <div class="service-content">
+                        <h2>Housekeeping</h2>
+                        <p>Housekeeping perform all the duties towards cleaning, maintaining orderliness, and
+                            running a house or a business property.The housekeeping duties involve
+                            maintaining the hotel to the best possible state in terms of cleanliness, and keeping it at
+                            highly desirable ambience.</p>
+                        
+                    </div>
+                </article>
+                <!-- end of single service  -->
+                 <!-- single service  -->
+                 <article class="service">
+                    <div class="service-icon">
+                        <span>
+                            <i class="fas fa-door-closed"></i>
+                        </span>
+                    </div>
+                    <div class="service-content">
+                        <h2>Room Security</h2>
+                        <p>We provide proper Safety and Security system in place to protect staff, guests and physical resources and assets such as equipment, appliances buildings, gardens of the hotel and also the belongings of the guest. Safety and Security is always the first priority towards guest service.</p>
+                       
+                    </div>
+                </article>
+                <!-- end of single service  -->
+                <!-- single service  -->
+            </div>
+        </section>
+        <section class="room sec-width" id="rooms">
+            <div class="title">
+                <h2>ROOMS</h2>
+            </div>
+            <div class="rooms-container">
+                <!-- single room  -->
+                <article class="room">
+                    <div class="room-image">
+                        <img src="images/i1.jpg" alt="room image">
+                    </div>
+                    <div class="room-text">
+                        <h3>RESTAURANTS</h3>
+                        <ul>
+                            <li>
+                                <i class="fas fa-arrow-alt-circle-right"></i>
+                                Spacious
+                            </li>
+                            <li>
+                                <i class="fas fa-arrow-alt-circle-right"></i>
+                                Tasty and hygiene food
+                            </li>
+
+                            <li>
+                                <i class="fas fa-arrow-alt-circle-right"></i>
+                                Best price
+                            </li>
+                        </ul>
+                        
+                        <p class="rate">
+                            <span>₹7000.00 /</span> PER DAY
+                        </p>
+                        <script type = "text/javascript">
+                            function Redirect() {
+                               window.location = "rooms.php";
+                            }
+                            </script>
+                        <a href="rooms.php"><button type="button" class="btn">BOOK NOW</button></a>
+                       
+                    </div>
+                </article>
+                <!-- end of single room  -->
+                <!-- single room  -->
+                <article class = "room">
+                    <div class = "room-image">
+                        <img src = "images/i2.jpg" alt = "room image">
+                    </div>
+                    <div class = "room-text">
+                        <h3>SINGLE BED ROOM</h3>
+                        <ul>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Single bed(queen/kingsize)
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                AC/Non AC
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Spacious
+                            </li>
+                        </ul>
+                        
+                        <p class = "rate">
+                            <span>₹10000.00 /</span>PER DAY
+                        </p>
+                        <a href="rooms.php"><button type="button" class="btn">BOOK NOW</button></a>
+                    </div>
+                </article>
+                <!-- end of single room -->
+                <!-- single room -->
+                <article class = "room">
+                    <div class = "room-image">
+                        <img src = "images/i3.jpg" alt = "room image">
+                    </div>
+                    <div class = "room-text">
+                        <h3>DOUBLE BED ROOM</h3>
+                        <ul>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Double bed(queen/kingsize)
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                AC/Non AC
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Spacious
+                            </li>
+                        </ul>
+                        
+                        <p class = "rate">
+                            <span>₹15000.00 /</span> PER DAY
+                        </p>
+                        <a href="rooms.php"><button type="button" class="btn">BOOK NOW</button></a>
+                    </div>
+                </article>
+                <!-- end of single room -->
+            </div>
+        </section>
+
+        <section class="customers" id="customers">
+            <div class="sec-width">
+                <div class="title">
+                    <h2>CUSTOMERS</h2>
+                </div>
+                <div class="customers-container">
+                   <!-- single customer -->
+                   <div class = "customer">
+                    <div class = "rating">
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "far fa-star"></i></span>
+                    </div>
+                    <h3>We Loved it</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat beatae veritatis provident eveniet praesentium veniam cum iusto distinctio esse, vero est autem, eius optio cupiditate?</p>
+                    <span>Customer Name, Country</span>
+                </div>
+                <!-- end of single customer -->
+                <!-- single customer -->
+                <div class = "customer">
+                    <div class = "rating">
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "far fa-star"></i></span>
+                    </div>
+                    <h3>Comfortable Living</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat beatae veritatis provident eveniet praesentium veniam cum iusto distinctio esse, vero est autem, eius optio cupiditate?</p>
+                    <span>Customer Name, Country</span>
+                </div>
+                <!-- end of single customer -->
+                <!-- single customer -->
+                <div class = "customer">
+                    <div class = "rating">
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "far fa-star"></i></span>
+                    </div>
+                    <h3>Nice Place</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat beatae veritatis provident eveniet praesentium veniam cum iusto distinctio esse, vero est autem, eius optio cupiditate?</p>
+                    <span>Customer Name, Country</span>
+                </div>
+                <!-- end of single customer -->
+                </div>
+            </div>
+        </section>
+        <!-- end of body content  -->
+        <!-- footer  -->
+        <footer class="footer">
+            <div class="footer-container">
+                <div>
+                    <h2>About Us</h2>
+                    <p>Land of volcanic peaks, scenic waterfalls, hot springs and rich flora and fauna. National parks, wildlife refuges, quaint villages, historic sites and a countless sum of golden beaches in the area provide a variety of activities for guests that seek an authentic Costa Rican experience.</p>
+                    <ul class="social-icons">
+                        <li class="flex"><i class="fa fa-twitter fa-2x"></i></li>
+                        <li class="flex"><i class="fa fa-facebook fa-2x"></i></li>
+                        <li class="flex"><i class="fa fa-instagram fa-2x"></i></li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>Useful Links</h2>
+                    <a href="#">Blog</a>
+                    <a href="#">Rooms</a>
+                    <a href="#">Subcriptions</a>
+                    <a href="#">Gift Card</a>
+                </div>
+                <div>
+                    <h2>Privacy</h2>
+                    <a href="#">Career</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Services</a>
+                </div>
+                <div>
+                    <h2>Have A Question?</h2>
+                    <div class="contact-item">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                        </span>
+                        <span>
+                            203 Fake St.Mountain View, San Francisco, California, USA
+                        </span>
+                    </div>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-phone-alt"></i>
+                        </span>
+                        <span>
+                            +84545 37534 48
+                        </span>
+                    </div>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-envelope"></i>
+                        </span>
+                        <span>
+                            info@domain.com
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end of footer  -->
+
+        <script srs="java1.js"></script>
+    </body>
+</html>
+
